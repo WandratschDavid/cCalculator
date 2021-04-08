@@ -34,11 +34,11 @@ int main()
                 printf("%d %% %d = %d\n", (int)firstInput, (int)secondInput, (int)firstInput % (int)secondInput);
                 break;
 
-            // TODO: char[] deklarieren
-            //  input von char[] für String comparison
-            //  Addition und Subtraktion von Strings
-            //  boolean operators
-            //  Zeit - Arithmetik
+                // TODO: char[] deklarieren
+                //  input von char[] für String comparison
+                //  Addition und Subtraktion von Strings
+                //  boolean operators
+                //  Zeit - Arithmetik
 
                 /*
                 case 's':
