@@ -66,13 +66,6 @@ int main()
                 case '%':
                     printf("%d %% %d = %d\n", (int)firstInput, (int)secondInput, (int)firstInput % (int)secondInput);
                     break;
-
-                    // TODO: char[] deklarieren
-                    //  input von char[] für String comparison
-                    //  Addition und Subtraktion von Strings
-                    //  boolean operators
-                    //  Zeit - Arithmetik implementieren
-
                 default:
                     printf("Error! Dies ist kein valider Operator!\n");
             }
@@ -106,8 +99,7 @@ int main()
                     printf("Subtraktion String1 und String2: %d\n", strcmp(firstInputArray, secondInputArray));
                     break;
                 case 'T':
-                    //Time Addition
-                    if (operator[1] == '+')
+                    if (operator[1] == '+') //Time Addition
                     {
                         printf("Enter first time:");
                         scanf("%d:%d:%d", &startTime.hour, &startTime.min, &startTime.sec);
@@ -129,7 +121,7 @@ int main()
                         printf("%d:%d:%d", diffTime.hour, diffTime.min, diffTime.sec);
                         break;
                     }
-                    else if (operator[1] == '-')
+                    else if (operator[1] == '-') //Time Subtraktion
                     {
                         printf("Enter first time:\n");
                         scanf("%d:%d:%d", &startTime.hour, &startTime.min, &startTime.sec);
